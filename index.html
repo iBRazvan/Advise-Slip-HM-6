@@ -4,12 +4,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+  <link rel="icon" type="image/png" href="images/icon-dice.svg">
+  <title>Advise-Slip</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-<!--   your code -->
+  <div class="container">
+    <div class="card-container">
+      <div class="advice-nr">Advice #<span id="idNo"></span> </div>
+      <div class="advice-container" id="speech"></div>
+      <img src="images/pattern-divider-desktop.svg" alt="" class="src">
+      <button id="submit-btn"> GIVE ME AN ADVICE </button>
+    </div>
+  </div>
+  <script src="voice.js"></script>
   <script src="script.js"></script>
 </body>
 
