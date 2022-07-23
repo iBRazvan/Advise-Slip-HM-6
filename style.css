@@ -1,1 +1,54 @@
-/* your code */
+body, * {
+    margin: 0;
+
+}
+
+#submit-btn {
+
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 20px;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+
+#submit-btn:hover, :active{
+    background-color: #D9D9D9;
+    color: black;
+    border: 2px solid black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #202632;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:2rem;
+    width: 540px;
+    height: 335px;
+    background-color: #313A49;
+    border-radius: 20px;
+}
+
+.advice-container {
+    max-width: 468px;
+    height: auto;
+    color: #D9D9D9;
+    font-size: 2em;
+    text-align: center;
+}
+
+.advice-nr {
+    font-size: 2em;
+    color: #53FFAB;
+}
